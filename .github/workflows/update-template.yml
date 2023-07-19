@@ -17,7 +17,6 @@ on:
 jobs:
   release:
     name: Build
-    runs-on: [self-hosted, linux]
     steps:
       - name: Checkout
         uses: actions/checkout@v3

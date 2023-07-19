@@ -1,31 +1,101 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: wirewayproject # Your GitHub organization or username, where this repository lives
+repo: uptime # The name
+runner: "[self-hosted, linux]"
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: Proxy
+    url: https://wireway.ch/api/status/nodes/?node=1
+  - name: cluster1 [ 2 nodes ]
+    url: https://wireway.ch/api/status/nodes/?node=2
+  - name: cluster2 [ 32 nodes ]
+    url: https://wireway.ch/api/status/nodes/?node=3
+  - name: controller1
+    url: https://wireway.ch/api/status/controller/?id=1
+  - name: controller2
+    url: https://wireway.ch/api/status/controller/?id=2
+  - name: controller3
+    url: https://wireway.ch/api/status/controller/?id=3
+  - name: controller4
+    url: https://wireway.ch/api/status/controller/?id=4
+  - name: UPS
+    url: https://wireway.ch/api/status/ups/
+  - name: Wireway Website
+    url: https://wireway.ch
+  - name: Wireway Speedtest
+    url: https://speedtest.wireway.ch
+  - name: Wireway Autoajax
+    url: https://autoajax.wireway.ch
+  - name: Wireway CLI
+    url: https://wireway.ch/cli.html
+  - name: obvTiger Website
+    url: https://obvtiger.ch
+  - name: obvTiger CDN
+    url: https://cdn.obvtiger.ch
+  - name: ShieldBreak Website
+    url: https://www.shield-break.net
+  - name: ShieldBreak CDN
+    url: https://cdn.shield-break.net
+  - name: MCServerSearch
+    url: https://mcserversearch.com
+  - name: Grafana
+    url: https://grafana.bubicloud.ch/login
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: eniv.app
+    url: https://eniv.app
+  - name: eniv.app Preview
+    url: https://preview.eniv.app
+  - name: DB1 Present
+    url: https://www.shield-break.net/db.php?db=db1
+  - name: DB2 Present
+    url: https://www.shield-break.net/db.php?db=db2
+  - name: DB3 Present
+    url: https://www.shield-break.net/db.php?db=db3
+  - name: DB1 Replica Present
+    url: https://www.shield-break.net/db.php?db=db1&r=true
+  - name: DB2 Replica Present
+    url: https://www.shield-break.net/db.php?db=db2&r=true
+  - name: DB3 Replica Present
+    url: https://www.shield-break.net/db.php?db=db3&r=true
+  - name: CaveAttack
+    url: https://caveattack.shield-break.net/
+  - name: CaveAtatck Map
+    url: https://caveattack.shield-break.net/map/
+  - name: Discardium
+    url: https://discardium.com
+  - name: Bubicloud
+    url: https://cloud.bubicloud.ch
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: Analytics
+    url: https://analytics.shield-break.net
+  - name: loadbalancer group
+    url: https://wireway.ch/api/status/lb/?id=group
+
+
+
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "*/5 * * * *"
+  staticSite: "*/5 * * * *"
+  summary: "*/30 * * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
+  cname: status.wireway.ch
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
+  name: Wireway
+  introTitle: "**Wireway** is a infrastructure hosted in Switzerland"
   introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+    - title: Wireway.ch
+      href: https://wireway.ch
+    - title: Speedtest
+      href: https://speedtest.wireway.ch

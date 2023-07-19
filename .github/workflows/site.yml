@@ -10,14 +10,14 @@
 name: Static Site CI
 on:
   schedule:
-    - cron: "0 1 * * *"
+    - cron: "*/5 * * * *"
   repository_dispatch:
     types: [static_site]
   workflow_dispatch:
 jobs:
   release:
     name: Build and deploy site
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux]
     if: "!contains(github.event.head_commit.message, '[skip ci]')"
     steps:
       - name: Checkout

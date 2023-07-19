@@ -16,6 +16,7 @@ on:
   workflow_dispatch:
 jobs:
   release:
+    runs-on: ["linux"]
     name: Build
     steps:
       - name: Checkout

@@ -91,8 +91,8 @@ status-website:
   cname: status.wireway.ch
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Wireway
-  introTitle: "**Wireway** is a infrastructure hosted in Switzerland"
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introTitle: "**Wireway** is a project operated by a single person making Websites"
+  introMessage: Status page hosted by GitHub. Check out some of my projects at [wireway.ch](https://wireway.ch)
   navbar:
     - title: Status
       href: /

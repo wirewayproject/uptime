@@ -509,19 +509,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/caveattack.shield-break.net.ico",
     "slug": "cave-atatck-map",
     "status": "up",
-    "uptime": "99.95%",
-    "uptimeDay": "99.87%",
-    "uptimeWeek": "99.95%",
-    "uptimeMonth": "99.95%",
-    "uptimeYear": "99.95%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 139,
     "timeDay": 138,
     "timeWeek": 139,
     "timeMonth": 139,
     "timeYear": 139,
-    "dailyMinutesDown": {
-      "2023-07-22": 2
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Discardium",

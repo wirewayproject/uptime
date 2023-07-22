@@ -9,6 +9,10 @@ sites:
     url: https://wireway.ch/api/status/nodes/?node=2
   - name: cluster2 [ 32 nodes ]
     url: https://wireway.ch/api/status/nodes/?node=3
+  - name: r-place.ch
+    url: https://r-place.ch
+  - name: r-place.ch Pocketbase
+    url: https://pocketbase.r-place.ch/_/
   - name: r/place
     url: https://www.reddit.com/r/place/
   - name: controller1

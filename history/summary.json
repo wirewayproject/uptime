@@ -95,19 +95,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/www.reddit.com.ico",
     "slug": "r-place",
     "status": "up",
-    "uptime": "99.87%",
-    "uptimeDay": "99.29%",
-    "uptimeWeek": "99.87%",
-    "uptimeMonth": "99.87%",
-    "uptimeYear": "99.87%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 697,
     "timeDay": 640,
     "timeWeek": 697,
     "timeMonth": 697,
     "timeYear": 697,
-    "dailyMinutesDown": {
-      "2023-07-25": 10
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "controller1",

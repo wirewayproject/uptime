@@ -1,7 +1,7 @@
 url: https://wireway.ch/api/status/lb/?id=group
 status: up
 code: 200
-responseTime: 475
-lastUpdated: 2023-07-29T07:32:59.676Z
+responseTime: 389
+lastUpdated: 2023-07-29T07:41:41.652Z
 startTime: Wed Jul 19 2023 17:16:34 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>

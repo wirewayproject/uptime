@@ -66,7 +66,7 @@ sites:
     url: https://www.shield-break.net/db.php?db=db3&r=true
   - name: CaveAttack
     url: https://caveattack.shield-break.net/
-  - name: CaveAtatck Map
+  - name: CaveAttack Map
     url: https://caveattack.shield-break.net/map/
   - name: Discardium
     url: https://discardium.com

@@ -5,26 +5,10 @@ repo: uptime # The name
 sites:
   - name: Proxy
     url: https://wireway.ch/api/status/nodes/?node=1
-  - name: cluster1 [ 2 nodes ]
-    url: https://wireway.ch/api/status/nodes/?node=2
-  - name: cluster2 [ 32 nodes ]
-    url: https://wireway.ch/api/status/nodes/?node=3
   - name: r-place.ch
     url: https://r-place.ch
   - name: r-place.ch Pocketbase
     url: https://pocketbase.r-place.ch/_/
-  - name: r/place
-    url: https://www.reddit.com/r/place/
-  - name: controller1
-    url: https://wireway.ch/api/status/controller/?id=1
-  - name: controller2
-    url: https://wireway.ch/api/status/controller/?id=2
-  - name: controller3
-    url: https://wireway.ch/api/status/controller/?id=3
-  - name: controller4
-    url: https://wireway.ch/api/status/controller/?id=4
-  - name: UPS
-    url: https://wireway.ch/api/status/ups/
   - name: Wireway Website
     url: https://wireway.ch
   - name: Wireway Speedtest
@@ -35,35 +19,12 @@ sites:
     url: https://wireway.ch/cli.html
   - name: obvTiger Website
     url: https://obvtiger.ch
-  - name: obvTiger CDN
-    url: https://cdn.obvtiger.ch
-  - name: ShieldBreak Website
-    url: https://www.shield-break.net
-  - name: ShieldBreak CDN
-    url: https://cdn.shield-break.net
   - name: MCServerSearch
     url: https://mcserversearch.com
-  - name: Grafana
-    url: https://grafana.bubicloud.ch/login
-    expectedStatusCodes:
-      - 200
-      - 403
   - name: eniv.app
     url: https://eniv.app
   - name: eniv.app Preview
     url: https://preview.eniv.app
-  - name: DB1 Present
-    url: https://www.shield-break.net/db.php?db=db1
-  - name: DB2 Present
-    url: https://www.shield-break.net/db.php?db=db2
-  - name: DB3 Present
-    url: https://www.shield-break.net/db.php?db=db3
-  - name: DB1 Replica Present
-    url: https://www.shield-break.net/db.php?db=db1&r=true
-  - name: DB2 Replica Present
-    url: https://www.shield-break.net/db.php?db=db2&r=true
-  - name: DB3 Replica Present
-    url: https://www.shield-break.net/db.php?db=db3&r=true
   - name: CaveAttack
     url: https://caveattack.shield-break.net/
   - name: CaveAttack Map
@@ -75,10 +36,6 @@ sites:
     expectedStatusCodes:
       - 200
       - 403
-  - name: Analytics
-    url: https://analytics.shield-break.net
-  - name: loadbalancer group
-    url: https://wireway.ch/api/status/lb/?id=group
 
 
 

@@ -25,12 +25,6 @@ sites:
     url: https://eniv.app
   - name: eniv.app Preview
     url: https://preview.eniv.app
-  - name: CaveAttack
-    url: https://caveattack.shield-break.net/
-  - name: CaveAttack Map
-    url: https://caveattack.shield-break.net/map/
-  - name: Discardium
-    url: https://discardium.com
   - name: Bubicloud
     url: https://cloud.bubicloud.ch
     expectedStatusCodes:

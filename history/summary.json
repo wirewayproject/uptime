@@ -11,8 +11,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 494,
-    "timeDay": 620,
-    "timeWeek": 530,
+    "timeDay": 614,
+    "timeWeek": 529,
     "timeMonth": 502,
     "timeYear": 494,
     "dailyMinutesDown": {}
@@ -30,7 +30,7 @@
     "uptimeYear": "100.00%",
     "time": 490,
     "timeDay": 488,
-    "timeWeek": 502,
+    "timeWeek": 501,
     "timeMonth": 494,
     "timeYear": 490,
     "dailyMinutesDown": {}
@@ -40,18 +40,20 @@
     "url": "https://pocketbase.r-place.ch/_/",
     "icon": "https://icons.duckduckgo.com/ip3/pocketbase.r-place.ch.ico",
     "slug": "r-place-ch-pocketbase",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.94%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 485,
-    "timeDay": 625,
+    "timeDay": 629,
     "timeWeek": 521,
     "timeMonth": 490,
     "timeYear": 485,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-08-31": 1
+    }
   },
   {
     "name": "Wireway Website",
@@ -83,8 +85,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 476,
-    "timeDay": 601,
-    "timeWeek": 507,
+    "timeDay": 600,
+    "timeWeek": 506,
     "timeMonth": 483,
     "timeYear": 476,
     "dailyMinutesDown": {}
@@ -100,11 +102,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 464,
+    "time": 463,
     "timeDay": 599,
-    "timeWeek": 481,
+    "timeWeek": 480,
     "timeMonth": 469,
-    "timeYear": 464,
+    "timeYear": 463,
     "dailyMinutesDown": {}
   },
   {
@@ -120,7 +122,7 @@
     "uptimeYear": "100.00%",
     "time": 143,
     "timeDay": 134,
-    "timeWeek": 130,
+    "timeWeek": 129,
     "timeMonth": 149,
     "timeYear": 143,
     "dailyMinutesDown": {}
@@ -138,7 +140,7 @@
     "uptimeYear": "100.00%",
     "time": 479,
     "timeDay": 502,
-    "timeWeek": 499,
+    "timeWeek": 498,
     "timeMonth": 486,
     "timeYear": 479,
     "dailyMinutesDown": {}
@@ -156,7 +158,7 @@
     "uptimeYear": "100.00%",
     "time": 433,
     "timeDay": 542,
-    "timeWeek": 448,
+    "timeWeek": 447,
     "timeMonth": 436,
     "timeYear": 433,
     "dailyMinutesDown": {}
@@ -174,7 +176,7 @@
     "uptimeYear": "100.00%",
     "time": 442,
     "timeDay": 449,
-    "timeWeek": 461,
+    "timeWeek": 460,
     "timeMonth": 445,
     "timeYear": 442,
     "dailyMinutesDown": {}
@@ -190,11 +192,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 440,
-    "timeDay": 456,
-    "timeWeek": 467,
+    "time": 439,
+    "timeDay": 455,
+    "timeWeek": 466,
     "timeMonth": 444,
-    "timeYear": 440,
+    "timeYear": 439,
     "dailyMinutesDown": {}
   },
   {
@@ -209,7 +211,7 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 138,
-    "timeDay": 147,
+    "timeDay": 146,
     "timeWeek": 145,
     "timeMonth": 145,
     "timeYear": 138,

@@ -17,10 +17,6 @@ sites:
     url: https://autoajax.wireway.ch
   - name: Wireway CLI
     url: https://wireway.ch/cli.html
-  - name: obvTiger Website
-    url: https://obvtiger.ch
-  - name: MCServerSearch
-    url: https://mcserversearch.com
   - name: eniv.app
     url: https://eniv.app
   - name: eniv.app Preview
@@ -30,8 +26,6 @@ sites:
     expectedStatusCodes:
       - 200
       - 403
-
-
 
 workflowSchedule:
   graphs: "0 0 * * *"

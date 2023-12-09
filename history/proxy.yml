@@ -1,7 +1,7 @@
 url: https://wireway.ch/api/status/nodes/?node=1
 status: down
-code: 521
-responseTime: 139
-lastUpdated: 2023-12-09T11:32:39.762Z
+code: 523
+responseTime: 3102
+lastUpdated: 2023-12-09T11:34:19.313Z
 startTime: 2023-07-19T17:16:14.000Z
 generator: Upptime <https://github.com/upptime/upptime>

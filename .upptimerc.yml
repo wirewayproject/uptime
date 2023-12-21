@@ -24,6 +24,8 @@ sites:
     expectedStatusCodes:
       - 200
       - 403
+  - name: Epilogue
+    url: https://epilogue.social
 
 workflowSchedule:
   graphs: "0 0 * * *"

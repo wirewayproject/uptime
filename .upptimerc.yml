@@ -7,8 +7,6 @@ sites:
     url: https://wireway.ch/api/status/nodes/?node=1
   - name: r-place.ch
     url: https://r-place.ch
-  - name: r-place.ch Pocketbase
-    url: https://pocketbase.r-place.ch/_/
   - name: Wireway Website
     url: https://wireway.ch
   - name: Wireway Speedtest
